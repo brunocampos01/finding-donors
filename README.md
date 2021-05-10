@@ -6,6 +6,7 @@
 <img src="references/donors.gif" align="right"/>
 
 <br/>
+<br/>
 
 ### **Data Mining Goals**
 The goal is to build a model that can predict whether an individual earns more than $ 50,000.
@@ -14,7 +15,8 @@ So how **outgoing artifacts** will be a rating for which people to contact, peop
 
 
 ## Datasource
-The datasource is: https://archive.ics.uci.edu/ml/datasets/Census+Income
+- The datasource is: https://archive.ics.uci.edu/ml/datasets/Census+Income
+- Kaggle post: https://www.kaggle.com/brunocampos01/adult-income-accuracy-0-90-and-fscore-0-90
 
 ## Algoritms
 - Decision Tree: baseline
