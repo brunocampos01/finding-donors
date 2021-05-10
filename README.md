@@ -52,7 +52,7 @@ I researched the best result found in this dataset. In kaggle there are competit
 sudo apt-get install Python3
 ```
 
-- pip
+- Pip
 ```
 sudo apt-get install python3-pip
 ```
