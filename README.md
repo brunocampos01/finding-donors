@@ -3,12 +3,12 @@
 ![License](https://img.shields.io/badge/Code%20License-MIT-red.svg)
 
 
-<img src="references/donors.gif" align="right"/>
+<img src="references/donors.gif" align="center"/>
 
 <br/>
 <br/>
 
-### **Data Mining Goals**
+## **Data Mining Goals**
 The goal is to build a model that can predict whether an individual earns more than $ 50,000.
 
 So how **outgoing artifacts** will be a rating for which people to contact, people who earn over $ 50,000, to ask for donations.
