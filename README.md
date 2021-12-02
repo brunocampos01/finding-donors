@@ -49,25 +49,14 @@ I researched the best result found in this dataset. In kaggle there are competit
 
 
 ## Requirements
-- Python 3.6 or more
-```sh
-sudo apt-get install Python3
-```
+This project is tested with:
 
-- Pip
-```
-sudo apt-get install python3-pip
-```
+| Requisite      | Version  |
+|----------------|----------|
+| Python         | 3.9.7    |
+| Pip            | 21.2.4   |
 
-- Python Virtual Environment
-```sh
-pip3 install --user virtualenv
-```
-
-- Git
-```sh
-pip install -r requirements.txt
-```
+I recommend using Python [venv](https://github.com/brunocampos01/becoming-a-expert-python#virtual-environment).
 
 ---
 
