@@ -4,33 +4,23 @@
 
 <img src="references/donors.gif" align="right" height=auto width=50%/>
 
-## **Data Mining Goals**
+## Describe Project
 The goal is to build a model that can predict whether an individual earns more than $ 50,000.
 
 So how **outgoing artifacts** will be a rating for which people to contact, people who earn over $ 50,000, to ask for donations.
 
-
-## Datasource
+## Data Source
 - The datasource from UCI ML Repository: [Census Income](https://archive.ics.uci.edu/ml/datasets/Census+Income)
 - Kaggle post: https://www.kaggle.com/brunocampos01/adult-income-accuracy-0-90-and-fscore-0-90
 
 ## Algorithms
 - Decision Tree: baseline
-```
-{'acc_test': 0.8190160309563295, 'f_test': 0.6180441525269113}
-```
 - Vector Support Machine
-```
-{'acc_test': 0.7966832504145936, 'f_test': 0.3057516611295681}
-```
 - AdaBoost
-```
-{'acc_test': 0.8576008844665561, 'f_test': 0.6299100804543303}
-```
 - AdaBoost Tunning
-```
-{'acc_test': 0.9055016181229774, 'f_test': 0.9070481732945361}
-```
+
+## Quickstart
+- [Data Exploration-Data Cleansing-Feature Engineering-Modeling](https://github.com/brunocampos01/finding-donors/tree/master/notebooks)
 
 ## **Better Result this Data Set !!!**
 I researched the best result found in this dataset. In kaggle there are competitions using this dataset where the leader of the competition got 0.88608.
