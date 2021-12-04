@@ -34,7 +34,7 @@ This project is tested with:
 
 I recommend using Python [venv](https://github.com/brunocampos01/becoming-a-expert-python#virtual-environment).
 
-## **Better Result this DataSet :star_struck:**
+## **Better Result this DataSet (0.90) :star_struck:**
 [Official Kaggle Competition](https://www.kaggle.com/uciml/adult-census-income)
 
 I researched the best result found in this dataset. In kaggle there are competitions using this dataset where the leader of the competition got 0.88608.
