@@ -14,22 +14,19 @@ So how **outgoing artifacts** will be a rating for which people to contact, peop
 - The datasource from UCI ML Repository: [Census Income](https://archive.ics.uci.edu/ml/datasets/Census+Income)
 - Kaggle post: https://www.kaggle.com/brunocampos01/adult-income-accuracy-0-90-and-fscore-0-90
 
-## Algoritms
+## Algorithms
 - Decision Tree: baseline
 ```
 {'acc_test': 0.8190160309563295, 'f_test': 0.6180441525269113}
 ```
-
 - Vector Support Machine
 ```
 {'acc_test': 0.7966832504145936, 'f_test': 0.3057516611295681}
 ```
-
 - AdaBoost
 ```
 {'acc_test': 0.8576008844665561, 'f_test': 0.6299100804543303}
 ```
-
 - AdaBoost Tunning
 ```
 {'acc_test': 0.9055016181229774, 'f_test': 0.9070481732945361}
