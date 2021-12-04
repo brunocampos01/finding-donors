@@ -2,11 +2,7 @@
 ![Python 3](https://img.shields.io/badge/Python-3-red.svg)
 ![License](https://img.shields.io/badge/Code%20License-MIT-red.svg)
 
-
-<img src="references/donors.gif" align="center"/>
-
-<br/>
-<br/>
+<img src="references/donors.gif" align="right" height=auto width=50%/>
 
 ## **Data Mining Goals**
 The goal is to build a model that can predict whether an individual earns more than $ 50,000.
