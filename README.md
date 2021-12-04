@@ -5,31 +5,24 @@
 <img src="references/donors.gif" align="right" height=auto width=50%/>
 
 ## Describe Project
-The goal is to build a model that can predict whether an individual earns more than $ 50,000.
+A nonprofit organization that survives on fundraising will start contacting people to request donations. However, there are few collaborators and the latest attempts have not yielded an expected result. For this reason, the organization decided to carry out a data mining project based on the success criteria of the project: better assertiveness in financial funding. Knowing the remuneration of an individual can help the organization (since it is possible to redirect a percentage of the Income Tax to donations through the FIA - Childhood and Adolescence Fund) to make the most appropriate requests for a request for support and collaboration, or even if they really should get in touch with the person, then this is the criterion for successful mining.
 
+## Objectives
+The goal is to build a model that can predict whether an individual earns more than $ 50,000.
+<br/>
 So how **outgoing artifacts** will be a rating for which people to contact, people who earn over $ 50,000, to ask for donations.
 
 ## Data Source
-- The datasource from UCI ML Repository: [Census Income](https://archive.ics.uci.edu/ml/datasets/Census+Income)
-- Kaggle post: https://www.kaggle.com/brunocampos01/adult-income-accuracy-0-90-and-fscore-0-90
+Data source from UCI ML Repository: [Census Income](https://archive.ics.uci.edu/ml/datasets/Census+Income)
 
 ## Algorithms
-- Decision Tree: baseline
-- Vector Support Machine
+- Decision Tree (baseline)
+- Support Vector Machine
 - AdaBoost
 - AdaBoost Tunning
 
 ## Quickstart
-- [Data Exploration-Data Cleansing-Feature Engineering-Modeling](https://github.com/brunocampos01/finding-donors/tree/master/notebooks)
-
-## **Better Result this Data Set !!!**
-I researched the best result found in this dataset. In kaggle there are competitions using this dataset where the leader of the competition got 0.88608.
-- https://www.kaggle.com/c/census-income/leaderboard
-- https://www.kaggle.com/c/adult-census-income/leaderboard
-- https://www.kaggle.com/c/cs189-sp16-hw5-census/leaderboard
-- https://www.kaggle.com/c/test-competition-ag/leaderboard (0.88608)
-- https://arxiv.org/pdf/1810.10076.pdf
-
+[Data Exploration, Data Cleansing, Feature Engineering, Modeling and Evaluation](https://github.com/brunocampos01/finding-donors/tree/master/notebooks)
 
 ## Requirements
 This project is tested with:
@@ -40,6 +33,16 @@ This project is tested with:
 | Pip            | 21.2.4   |
 
 I recommend using Python [venv](https://github.com/brunocampos01/becoming-a-expert-python#virtual-environment).
+
+## **Better Result this DataSet :star_struck:**
+[Official Kaggle Competition](https://www.kaggle.com/uciml/adult-census-income)
+
+I researched the best result found in this dataset. In kaggle there are competitions using this dataset where the leader of the competition got 0.88608.
+- https://www.kaggle.com/c/census-income/leaderboard
+- https://www.kaggle.com/c/adult-census-income/leaderboard
+- https://www.kaggle.com/c/cs189-sp16-hw5-census/leaderboard
+- https://www.kaggle.com/c/test-competition-ag/leaderboard (0.88608)
+- https://arxiv.org/pdf/1810.10076.pdf
 
 ---
 
