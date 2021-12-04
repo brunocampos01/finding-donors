@@ -11,7 +11,7 @@ So how **outgoing artifacts** will be a rating for which people to contact, peop
 
 
 ## Datasource
-- The datasource is: https://archive.ics.uci.edu/ml/datasets/Census+Income
+- The datasource from UCI ML Repository: [Census Income](https://archive.ics.uci.edu/ml/datasets/Census+Income)
 - Kaggle post: https://www.kaggle.com/brunocampos01/adult-income-accuracy-0-90-and-fscore-0-90
 
 ## Algoritms
