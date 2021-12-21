@@ -39,7 +39,7 @@ I recommend using Python [venv](https://github.com/brunocampos01/becoming-a-expe
 pip install --require-hashes -r requirements.txt
 ```
 
-## **Better Result this DataSet (0.90) :star_struck:**
+<!-- ## **Better Result this DataSet (0.90) :star_struck:**
 [Official Kaggle Competition](https://www.kaggle.com/uciml/adult-census-income)
 
 I researched the best result found in this dataset. In kaggle there are competitions using this dataset where the leader of the competition got 0.88608.
@@ -47,7 +47,7 @@ I researched the best result found in this dataset. In kaggle there are competit
 - https://www.kaggle.com/c/adult-census-income/leaderboard
 - https://www.kaggle.com/c/cs189-sp16-hw5-census/leaderboard
 - https://www.kaggle.com/c/test-competition-ag/leaderboard (0.88608)
-- https://arxiv.org/pdf/1810.10076.pdf
+- https://arxiv.org/pdf/1810.10076.pdf -->
 
 ---
 
