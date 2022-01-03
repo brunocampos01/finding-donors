@@ -38,7 +38,8 @@
 ###############################################################################
 # Binary Files
 
-# image, video and compress files are treated as binary by default and should not be modified.
+# Image, video and compress files are treated 
+# as binary by default and should not be modified.
 ###############################################################################
 *.png           binary
 *.jpg           binary
@@ -127,3 +128,4 @@
 # export-ignore: don't download this files from github
 ###############################################################################
 /.github export-ignore
+/ignored/* export-ignore
