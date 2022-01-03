@@ -1,5 +1,6 @@
 * linguist-vendored
 *.ipynb linguist-vendored=false
+*.* linguist-language=Python
 
 # # doc: https://git-scm.com/docs/gitattributes
 # # author this file: brunocampos01
