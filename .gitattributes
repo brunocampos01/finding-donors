@@ -1,119 +1,122 @@
-# doc: https://git-scm.com/docs/gitattributes
-# author this file: brunocampos01
+* linguist-vendored
+*.ipynb linguist-vendored=false
 
-###############################################################################
-# Set default behavior to automatically normalize line endings.
-###############################################################################
-* text=auto
-* text eol=lf
+# # doc: https://git-scm.com/docs/gitattributes
+# # author this file: brunocampos01
 
-# Documents
-*.doc  diff=astextplain
-*.DOC  diff=astextplain
-*.docx diff=astextplain
-*.DOCX diff=astextplain
-*.dot  diff=astextplain
-*.DOT  diff=astextplain
-*.pdf  diff=astextplain
-*.PDF  diff=astextplain
-*.rtf  diff=astextplain
-*.RTF  diff=astextplain
+# ###############################################################################
+# # Set default behavior to automatically normalize line endings.
+# ###############################################################################
+# * text=auto
+# * text eol=lf
 
-*.gitattributes text
-.gitignore      text
-*.md            text
-*.css           text diff=css
-*.df            text
-*.htm           text diff=html
-*.html          text diff=html
-*.js            text
-*.jsp           text
-*.jspf          text
-*.jspx          text
-*.properties    text
-*.tld           text
-*.tag           text
-*.tagx          text
-*.xml           text
-###############################################################################
-# Binary Files
+# # Documents
+# *.doc  diff=astextplain
+# *.DOC  diff=astextplain
+# *.docx diff=astextplain
+# *.DOCX diff=astextplain
+# *.dot  diff=astextplain
+# *.DOT  diff=astextplain
+# *.pdf  diff=astextplain
+# *.PDF  diff=astextplain
+# *.rtf  diff=astextplain
+# *.RTF  diff=astextplain
 
-# image, video and compress files are treated as binary by default and should not be modified.
-###############################################################################
-*.png           binary
-*.jpg           binary
-*.jpeg          binary
-*.gif           binary
-*.ico           binary
-*.mov           binary
-*.mp4           binary
-*.mp3           binary
-*.flv           binary
-*.fla           binary
-*.swf           binary
-*.gz            binary
-*.zip           binary
-*.tar           binary
-*.7z            binary
-*.ttf           binary
+# *.gitattributes text
+# .gitignore      text
+# *.md            text
+# *.css           text diff=css
+# *.df            text
+# *.htm           text diff=html
+# *.html          text diff=html
+# *.js            text
+# *.jsp           text
+# *.jspf          text
+# *.jspx          text
+# *.properties    text
+# *.tld           text
+# *.tag           text
+# *.tagx          text
+# *.xml           text
+# ###############################################################################
+# # Binary Files
 
-###############################################################################
-# Python
-###############################################################################
+# # image, video and compress files are treated as binary by default and should not be modified.
+# ###############################################################################
+# *.png           binary
+# *.jpg           binary
+# *.jpeg          binary
+# *.gif           binary
+# *.ico           binary
+# *.mov           binary
+# *.mp4           binary
+# *.mp3           binary
+# *.flv           binary
+# *.fla           binary
+# *.swf           binary
+# *.gz            binary
+# *.zip           binary
+# *.tar           binary
+# *.7z            binary
+# *.ttf           binary
 
-# Source files
-# ============
-*.pxd    text diff=python eol=lf
-*.py     text diff=python eol=lf
-*.py3    text diff=python eol=lf
-*.pyw    text diff=python eol=lf
-*.pyx    text diff=python eol=lf
-*.pyz    text diff=python eol=lf
-*.pyi    text diff=python eol=lf
-*.ipynb  text diff=python eol=lf
+# ###############################################################################
+# # Python
+# ###############################################################################
 
-# Binary files
-# ============
-*.db     binary
-*.p      binary
-*.pkl    binary
-*.pickle binary
-*.pyc    binary
-*.pyd    binary
-*.pyo    binary
+# # Source files
+# # ============
+# *.pxd    text diff=python eol=lf
+# *.py     text diff=python eol=lf
+# *.py3    text diff=python eol=lf
+# *.pyw    text diff=python eol=lf
+# *.pyx    text diff=python eol=lf
+# *.pyz    text diff=python eol=lf
+# *.pyi    text diff=python eol=lf
+# *.ipynb  text diff=python eol=lf
 
-###############################################################################
-# Java
-###############################################################################
+# # Binary files
+# # ============
+# *.db     binary
+# *.p      binary
+# *.pkl    binary
+# *.pickle binary
+# *.pyc    binary
+# *.pyd    binary
+# *.pyo    binary
 
-# Binary files
-# ============
-*.class         binary
-*.dll           binary
-*.ear           binary
-*.jar           binary
-*.so            binary
-*.war           binary
-*.jks           binary
+# ###############################################################################
+# # Java
+# ###############################################################################
 
-###############################################################################
-# Syntax 
-###############################################################################
-# Example of a `.gitattributes` file which reclassifies `.rb` files as Java:
-*.rb    linguist-language=Ruby
-*.java  linguist-language=Java
-*.pl   linguist-language=Prolog
+# # Binary files
+# # ============
+# *.class         binary
+# *.dll           binary
+# *.ear           binary
+# *.jar           binary
+# *.so            binary
+# *.war           binary
+# *.jks           binary
 
-*.py    linguist-language=Python
-*.ipynb linguist-detectable=false
-*.ipynb linguist-language=python
+# ###############################################################################
+# # Syntax 
+# ###############################################################################
+# # Example of a `.gitattributes` file which reclassifies `.rb` files as Java:
+# *.rb    linguist-language=Ruby
+# *.java  linguist-language=Java
+# *.pl   linguist-language=Prolog
 
-*.html  linguist-detectable=false
-*.xml   linguist-detectable=false
+# *.py    linguist-language=Python
+# *.ipynb linguist-detectable=false
+# *.ipynb linguist-language=python
 
-*.sql linguist-detectable=true
-*.sql  linguist-language=sql
-###############################################################################
-# Syntax 
-###############################################################################
-/.github export-ignore
+# *.html  linguist-detectable=false
+# *.xml   linguist-detectable=false
+
+# *.sql linguist-detectable=true
+# *.sql  linguist-language=sql
+# ###############################################################################
+# # Syntax 
+# ###############################################################################
+# /.github export-ignore
