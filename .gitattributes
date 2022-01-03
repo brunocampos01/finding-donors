@@ -97,23 +97,36 @@
 *.jks           binary
 
 ###############################################################################
-# Syntax 
+# reclassifies 
 ###############################################################################
 # Example of a `.gitattributes` file which reclassifies `.rb` files as Java:
 *.rb    linguist-language=Ruby
 *.java  linguist-language=Java
-*.pl   linguist-language=Prolog
+*.pl    linguist-language=Prolog
 
 *.py    linguist-language=Python
-*.ipynb linguist-detectable=false
-*.ipynb linguist-language=python
+*.ipynb linguist-language=Python
 
-*.html  linguist-detectable=false
-*.xml   linguist-detectable=false
+*.sql   linguist-language=sql
 
-*.sql linguist-detectable=true
-*.sql  linguist-language=sql
 ###############################################################################
-# Syntax 
+# Vendored code 
+###############################################################################
+*.ipynb linguist-vendored=true
+
+# mark doc
+*.md linguist-documentation
+
+# Apply override to all files in the directory
+# special-vendored-path/* linguist-vendored
+
+# Apply override to a specific file
+# jquery.js -linguist-vendored
+
+# Apply override to all files and directories in the directory
+# dir/** linguist-vendored
+
+###############################################################################
+# export-ignore: don't download this files from github
 ###############################################################################
 /.github export-ignore
