@@ -128,4 +128,4 @@
 # export-ignore: don't download this files from github
 ###############################################################################
 /.github export-ignore
-/ignored/* export-ignore
+/ignored_f/* export-ignore
