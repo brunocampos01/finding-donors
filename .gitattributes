@@ -112,7 +112,7 @@
 ###############################################################################
 # Vendored code 
 ###############################################################################
-*.ipynb linguist-vendored=true
+*.ipynb linguist-vendored=false
 
 # mark doc
 *.md linguist-documentation
